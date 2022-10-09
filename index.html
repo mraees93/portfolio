@@ -21,49 +21,50 @@
   </head>
 
   <body>
-	<nav class="navbar navbar-inverse">
-        <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<div></div>
-		<ul class="nav navbar-nav navbar-left">
-			<li><a href="https://drive.google.com/file/d/1c8Yc-rFkiKmY4RybwNqOb1ep-xc3pyfm/view?usp=sharing" onclick="window.open(this.href, '_self')" class="socIcon" data-toggle="tooltip" title="Click to view cv" data-original-title="CV" data-gal='tooltip' data-placement="top">My cv</a></li>
-		</ul>
-         <ul class="nav navbar-nav navbar-right">
-           
-            <li><a href="#aboutMore">Skills</a></li>
-            <li><span>/</span></li>
-            <li><a href="#work">Projects</a></li>
-            <li><span>/</span></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        
-         
-        </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-  <div id="boxWrapp">
+	<div id="boxWrapp">
     
-    <!-- Full Page Image Header Area -->
-    <div id="skills" class="header">
-	<div class="maskHeader"></div>
-     	<div class="vert-text">
-			<h1>I'm Raees Dolley</h1>
-			<h2>An aspiring full-stack developer</h2>
-			
+		<!-- Full Page Image Header Area -->
+		<div id="top" class="header">
+		<div class="maskHeader"></div>
+			 <div class="vert-text">
+				<h1>I'm Raees Dolley</h1>
+				<h2>An aspiring full-stack developer</h2>
+			</div>
+		<div class="navbar-nav">
+		<a href="#aboutMore" class="btn btn-link btnAbout" class="btn btn-link btnAbout" title="Skills and more..." data-gal='tooltip'><i class="fa fa-angle-down fa-2x"></i></a>
 		</div>
-    
-    </div>
+		</div>
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			</div>
+			
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div></div>
+			<ul class="nav navbar-nav navbar-left">
+				<li><a href="https://drive.google.com/file/d/1c8Yc-rFkiKmY4RybwNqOb1ep-xc3pyfm/view?usp=sharing" onclick="window.open(this.href, '_self')" class="socIcon" data-toggle="tooltip" title="Click to view cv" data-original-title="CV" data-gal='tooltip' data-placement="top">My cv</a></li>
+			</ul>
+			 <ul class="nav navbar-nav navbar-right">
+			   
+				<li class="current"><a href="#aboutMore">Skills</a></li>
+				<li><span>/</span></li>
+				<li><a href="#work">Projects</a></li>
+				<li><span>/</span></li>
+				<li><a href="#contact">Contact</a></li>
+			  </ul>
+			
+			 
+			</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
     <!-- /Full Page Image Header Area -->
   
     <!-- Intro -->
@@ -246,7 +247,7 @@
 			</div><!-- end col -->
 			<div class="col-md-4 text-center">
 			<div class=" build top-scroll">
-			<a href="#skills"><i class="fa fa-angle-up scroll"></i></a>
+			<a href="#top" title="Back to top" data-gal='tooltip'><i class="fa fa-angle-up scroll"></i></a>
 			</div>
 			</div>
 			<div class="col-md-4 text-right">
