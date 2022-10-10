@@ -339,7 +339,7 @@ div.link {
 }
 
 .contact p {
-  font-size: 24px;
+  font-size: 36px;
   margin: 0;
   padding: 0 0 0 0;
 }
@@ -563,14 +563,38 @@ float:left;
   }
 }
 
-@media screen and (min-width: 1199px) {
-  /* .page {
-    height: 100vh;
-  } */
+@media screen and (min-width: 1400px) {
+  .row {
+    padding-top: 0%;
+    padding-bottom: 15%;
+  }
+  footer .row {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .container {
+    width: 80%;
+  }
   .vert-text h1 {
-    font-size: 72px;
+    font-size: 82px;
   }
   .vert-text h2 {
+    font-size: 70px;
+  }
+  h2 {
     font-size: 60px;
+  }
+  .about-content p {
+    font-size: 32px;
+  }
+  .navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 23px;
+    font-size: 35px;
+  }
+  .list-inline > li > a {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 30px;
   }
 }
