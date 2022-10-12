@@ -564,9 +564,15 @@ float:left;
 }
 
 @media screen and (min-width: 1400px) {
+  .tooltip-inner {
+    width: fit-content !important;
+    padding: 15px 18px;
+    font-size: 3rem;
+    border-radius: 10px;
+  }
   .row {
     padding-top: 0%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
   }
   footer .row {
     padding-top: 1%;
