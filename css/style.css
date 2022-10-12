@@ -575,8 +575,9 @@ float:left;
     padding-bottom: 10%;
   }
   footer .row {
-    padding-top: 1%;
+    padding-top: 20px;
     padding-bottom: 1%;
+    font-size: 28px;
   }
   .container {
     width: 80%;
