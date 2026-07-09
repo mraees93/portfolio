@@ -192,7 +192,7 @@ function navScroll(){
  $(window).scroll(function() {
 		   
 var top = $(window).scrollTop();
-var aboutScroll = $('#aboutMore').offset().top - 184
+var aboutScroll = $('#work').offset().top - 184
 if (top > aboutScroll) {
 
 $('.btnAbout').css({
